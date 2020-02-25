@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb2659b5-5328-4d41-855a-aede7651ad6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Revision.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/ICounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/ICounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception/CounterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception/CounterException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +22,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -37,23 +37,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="ExtractSuperBase.RECENT_KEYS">
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="ch.hesge.cours634.counter" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter" />
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ch.hesge.cours634.counter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="JUnit.UpperLimitedPositiveCounterTest">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.Main" />
       <module name="Revision" />
@@ -77,8 +90,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hesge.cours634.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.hesge.cours634.counter" />
+      <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.CounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpperLimitedPositiveCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hesge.cours634.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.hesge.cours634.counter" />
+      <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.UpperLimitedPositiveCounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpperLimitedPositiveCounterTest.inc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hesge.cours634.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.hesge.cours634.counter" />
+      <option name="MAIN_CLASS_NAME" value="ch.hesge.cours634.counter.UpperLimitedPositiveCounterTest" />
+      <option name="METHOD_NAME" value="inc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UpperLimitedPositiveCounterTest" />
+        <item itemvalue="JUnit.UpperLimitedPositiveCounterTest.inc" />
+        <item itemvalue="JUnit.CounterTest" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -119,17 +181,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="625" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1582201892778">
+    <state x="625" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1582616161471">
       <screen x="0" y="23" width="1624" height="1027" />
     </state>
-    <state x="625" y="259" key="#com.intellij.ide.util.MemberChooser/0.23.1624.1027@0.23.1624.1027" timestamp="1582201892778" />
+    <state x="625" y="259" key="#com.intellij.ide.util.MemberChooser/0.23.1624.1027@0.23.1624.1027" timestamp="1582616161471" />
     <state x="661" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582199007983">
       <screen x="0" y="23" width="1624" height="1027" />
     </state>
     <state x="661" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1624.1027@0.23.1624.1027" timestamp="1582199007983" />
+    <state width="1582" height="202" key="GridCell.Tab.0.bottom" timestamp="1582618926342">
+      <screen x="0" y="23" width="1624" height="1027" />
+    </state>
+    <state width="1582" height="202" key="GridCell.Tab.0.bottom/0.23.1624.1027@0.23.1624.1027" timestamp="1582618926342" />
+    <state width="1582" height="202" key="GridCell.Tab.0.center" timestamp="1582618926341">
+      <screen x="0" y="23" width="1624" height="1027" />
+    </state>
+    <state width="1582" height="202" key="GridCell.Tab.0.center/0.23.1624.1027@0.23.1624.1027" timestamp="1582618926341" />
+    <state width="1582" height="202" key="GridCell.Tab.0.left" timestamp="1582618926340">
+      <screen x="0" y="23" width="1624" height="1027" />
+    </state>
+    <state width="1582" height="202" key="GridCell.Tab.0.left/0.23.1624.1027@0.23.1624.1027" timestamp="1582618926340" />
+    <state width="1582" height="202" key="GridCell.Tab.0.right" timestamp="1582618926341">
+      <screen x="0" y="23" width="1624" height="1027" />
+    </state>
+    <state width="1582" height="202" key="GridCell.Tab.0.right/0.23.1624.1027@0.23.1624.1027" timestamp="1582618926341" />
+    <state x="613" y="461" key="ReplaceDuplicatesPrompt" timestamp="1582616730138">
+      <screen x="0" y="23" width="1624" height="1027" />
+    </state>
+    <state x="613" y="461" key="ReplaceDuplicatesPrompt/0.23.1624.1027@0.23.1624.1027" timestamp="1582616730138" />
     <state x="313" y="175" key="SettingsEditor" timestamp="1582199023486">
       <screen x="0" y="23" width="1624" height="1027" />
     </state>
     <state x="313" y="175" key="SettingsEditor/0.23.1624.1027@0.23.1624.1027" timestamp="1582199023486" />
+    <state x="662" y="459" key="VCS.ChangelistChooser" timestamp="1582616601691">
+      <screen x="0" y="23" width="1624" height="1027" />
+    </state>
+    <state x="662" y="459" key="VCS.ChangelistChooser/0.23.1624.1027@0.23.1624.1027" timestamp="1582616601691" />
+    <state x="100" y="123" width="1424" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582618168340">
+      <screen x="0" y="23" width="1624" height="1027" />
+    </state>
+    <state x="100" y="123" width="1424" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1624.1027@0.23.1624.1027" timestamp="1582618168340" />
+    <state x="516" y="437" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582617585352">
+      <screen x="0" y="23" width="1624" height="1027" />
+    </state>
+    <state x="516" y="437" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1624.1027@0.23.1624.1027" timestamp="1582617585352" />
+    <state x="568" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582618166098">
+      <screen x="0" y="23" width="1624" height="1027" />
+    </state>
+    <state x="568" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1624.1027@0.23.1624.1027" timestamp="1582618166098" />
+    <state x="628" y="262" width="542" height="456" key="extract.method.dialog" timestamp="1582616793610">
+      <screen x="0" y="23" width="1624" height="1027" />
+    </state>
+    <state x="628" y="262" width="542" height="456" key="extract.method.dialog/0.23.1624.1027@0.23.1624.1027" timestamp="1582616793610" />
   </component>
 </project>

@@ -3,24 +3,24 @@ package ch.hesge.cours634.counter;
 import exception.CounterException;
 
 public class Counter implements ICounter {
-    int value = 0;
+    private int value;
 
-    public Counter(int value) {
-        this.value = value;
+    public Counter(int initial) {
+        this.value = initial;
     }
 
     @Override
     public void inc() throws CounterException {
-        this.value++;
+        value++;
     }
 
     @Override
     public void add(int step) throws CounterException {
-        this.value+=step;
+        value+=step;
     }
 
     @Override
     public int getValue() {
-        return 0;
+        return value;
     }
 }

@@ -1,6 +1,7 @@
 package exception;
 
 public class CounterException extends Exception {
-    public CounterException() {
+    public CounterException(String message) {
+        super(message);
     }
 }
