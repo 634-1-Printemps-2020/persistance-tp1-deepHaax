@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bb2659b5-5328-4d41-855a-aede7651ad6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Revision.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch.hesge.cours634.counter/UpperLimitedPositiveCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exception/CounterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception/CounterException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/CounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/hesge/cours634/counter/CounterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,22 +185,22 @@
       <screen x="0" y="23" width="1624" height="1027" />
     </state>
     <state x="661" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1624.1027@0.23.1624.1027" timestamp="1582199007983" />
-    <state width="1582" height="202" key="GridCell.Tab.0.bottom" timestamp="1582618926342">
+    <state width="1582" height="202" key="GridCell.Tab.0.bottom" timestamp="1582712366243">
       <screen x="0" y="23" width="1624" height="1027" />
     </state>
-    <state width="1582" height="202" key="GridCell.Tab.0.bottom/0.23.1624.1027@0.23.1624.1027" timestamp="1582618926342" />
-    <state width="1582" height="202" key="GridCell.Tab.0.center" timestamp="1582618926341">
+    <state width="1582" height="202" key="GridCell.Tab.0.bottom/0.23.1624.1027@0.23.1624.1027" timestamp="1582712366243" />
+    <state width="1582" height="202" key="GridCell.Tab.0.center" timestamp="1582712366242">
       <screen x="0" y="23" width="1624" height="1027" />
     </state>
-    <state width="1582" height="202" key="GridCell.Tab.0.center/0.23.1624.1027@0.23.1624.1027" timestamp="1582618926341" />
-    <state width="1582" height="202" key="GridCell.Tab.0.left" timestamp="1582618926340">
+    <state width="1582" height="202" key="GridCell.Tab.0.center/0.23.1624.1027@0.23.1624.1027" timestamp="1582712366242" />
+    <state width="1582" height="202" key="GridCell.Tab.0.left" timestamp="1582712366241">
       <screen x="0" y="23" width="1624" height="1027" />
     </state>
-    <state width="1582" height="202" key="GridCell.Tab.0.left/0.23.1624.1027@0.23.1624.1027" timestamp="1582618926340" />
-    <state width="1582" height="202" key="GridCell.Tab.0.right" timestamp="1582618926341">
+    <state width="1582" height="202" key="GridCell.Tab.0.left/0.23.1624.1027@0.23.1624.1027" timestamp="1582712366241" />
+    <state width="1582" height="202" key="GridCell.Tab.0.right" timestamp="1582712366242">
       <screen x="0" y="23" width="1624" height="1027" />
     </state>
-    <state width="1582" height="202" key="GridCell.Tab.0.right/0.23.1624.1027@0.23.1624.1027" timestamp="1582618926341" />
+    <state width="1582" height="202" key="GridCell.Tab.0.right/0.23.1624.1027@0.23.1624.1027" timestamp="1582712366242" />
     <state x="613" y="461" key="ReplaceDuplicatesPrompt" timestamp="1582616730138">
       <screen x="0" y="23" width="1624" height="1027" />
     </state>

@@ -25,7 +25,7 @@ public class CounterTest {
     @Test
     public void getValue() {
         Counter counter = new Counter(10);
-        Assert.assertNotNull(counter v);
+        Assert.assertNotNull(counter);
         Assert.assertEquals(10, counter.getValue());
     }
 }
